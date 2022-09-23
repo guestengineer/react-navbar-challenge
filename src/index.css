@@ -1,0 +1,44 @@
+/** Import the google fonts for this project */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,500&display=swap');
+
+/** Import Tailwind components before to start with the code */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p,
+li {
+  @apply opacity-75;
+}
+
+.nabvar {
+  position: absolute;
+  top: -100%;
+  /*left: 0; */
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  z-index: -1;
+}
+
+.navbar.open {
+  background-color: #ffffff;
+}
+
+

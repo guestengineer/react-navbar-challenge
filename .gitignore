@@ -1,0 +1,7 @@
+# ignoring the config file
+/postcss.config.js
+
+################################
+
+# Ignoring this configuration file
+/tailwind.cofig.js
